@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/chitietsp.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="css/chitietsp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head">
+                <img src="./img/logo.png" alt="">
+            <form action="" method="post" class="find">
+                <input type="text" placeholder="Tìm kiếm sản phẩm">
+                <button><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></button>
+            </form>
+            <div class="navigation" >
+                <span id="fo">           
+                     <i class="fa-solid fa-cart-shopping"  style="color: white; font-size: 20px; width: 20px;height: 20px;" ></i>
+                     
+                     
+                </span>
+            
+                
+                <span class="ho">
+                    <i class="fa-solid fa-phone" style="color: white;font-size: 20px;width: 20px;height: 20px;"></i>
+                    
+                </span>
+                <div class="hotline">
+                    Hotline: 19001000
+                </div>
+                <div class="arrow-up"></div>
+                
+            </div>
+    
+            <div class="authenticate">
+                <button>Đăng nhập</button>
+                <button>Đăng ký</button>
+            </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="detail-product">
+                <div class="img-product">
+                    <!-- <div class="img-product-main">
+                        <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" alt="">
+                    </div> -->
+                    <div class="img-dif">
+                        <!-- Full-width images with number text -->
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="./img/fce294b7-eb14-4c58-999a-46daed7cd434.jpeg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="./img/4e5dcd81-4169-4574-947f-04051fc65976.jpeg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="./img/4e5dcd81-4169-4574-947f-04051fc65976.jpeg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="./img/fce294b7-eb14-4c58-999a-46daed7cd434.jpeg" style="width:100%">
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <!-- Image text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+
+                        <!-- Thumbnail images -->
+                        <div class="row">
+                            <div class="column">
+                            <img class="demo cursor" src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" style="width:100%" onclick="currentSlide(1)">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="./img/fce294b7-eb14-4c58-999a-46daed7cd434.jpeg" style="width:100%" onclick="currentSlide(2)">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="./img/4e5dcd81-4169-4574-947f-04051fc65976.jpeg" style="width:100%" onclick="currentSlide(3)">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" style="width:100%" onclick="currentSlide(4)">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="./img/4e5dcd81-4169-4574-947f-04051fc65976.jpeg" style="width:100%" onclick="currentSlide(5)">
+                            </div>
+                            <div class="column">
+                            <img class="demo cursor" src="./img/fce294b7-eb14-4c58-999a-46daed7cd434.jpeg" style="width:100%" onclick="currentSlide(6)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-product">
+                    <div>
+                        <h2>Cơm rang dưa bò</h2>
+                    </div>
+                    <div class="gia-tien">
+                        <div>
+                            <del>69.000đ</del>
+                        </div>
+                        <div>
+                            <span class="sale">-30K</span>
+                            <span>39.000đ</span>
+                        </div>
+                    </div>
+                    <div>
+                        <a href=""><button id="btn-1">Thêm vào giỏ hàng</button></a>
+                    </div>
+                    <div class="thanhphan">
+                        <div>
+                            <h3>Thành phần</h3>
+                        </div>
+                        <div class="khung">
+                            <div class="khung-thanhphan">
+                                <p>1. Bột Gia Vị Cơm Chiên CookyMADE 12g</p>
+                                <p>2. Cơm Trắng Nấu Chín 250g</p>
+                                <p>3. Tỏi Tép Lột Sẵn 10g</p>
+                                <p>4. Hành Tây, Dưa Leo, Hành Lá 80g</p>
+                                <p>5. Cải Chua 200g</p>
+                                <p>6. Trứng Gà 1 Quả</p>
+                                <p>7. Bắp Bò Allana Cắt Xào 200g</p>
+                                <p>8. Dầu Màu Điều, Nước Tương 5g</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desc">
+                <h3>Mô tả</h3>
+                <div class="khung">
+                    <p>Cơm rang dưa bò là món ngon mê mẩn với nhiều tín đồ yêu thích các món cơm chiên. Nguyên liệu làm quen thuộc, cách làm đơn giản nhanh chóng, ăn vào thấy được vị chua chua giòn giòn của dưa chua, đậm đà của thịt bò, mùi cơm thơm lừng, chỉ có vậy thôi cũng là ta xao xuyến.</p>
+                </div>
+            </div>
+            
+            <div class="cate">
+                <div class="re">
+                    <h3>Sản phẩm liên quan</h3>
+                </div>
+                <div class="related-pro-main">
+                    <div class="related-product">
+                        <div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" alt="">
+                            <div>
+                                <p>Gỏi bò</p>
+                            </div>
+                            <div>
+                                <p>Giá</p>
+                                <button class="btn-2">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="related-product">
+                        <div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" alt="">
+                            <div>
+                                <p>Gỏi bò</p>
+                            </div>
+                            <div>
+                                <p>Giá</p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="related-product">
+                        <div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" alt="">
+                            <div>
+                                <p>Gỏi bò</p>
+                            </div>
+                            <div>
+                                <p>Giá</p>
+                                <a href=""><button>Thêm vào giỏ hàng</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-product">
+                        <div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" alt="">
+                            <div>
+                                <p>Gỏi bò</p>
+                            </div>
+                            <div>
+                                <p>Giá</p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-product">
+                        <div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" alt="">
+                            <div>
+                                <p>Gỏi bò</p>
+                            </div>
+                            <div>
+                                <p>Giá</p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-product">
+                        <div>
+                            <img src="./img/7f689453-fc23-4e93-8154-72ff725c3e4b.jpeg" alt="">
+                            <div>
+                                <p>Gỏi bò</p>
+                            </div>
+                            <div>
+                                <p>Giá</p>
+                                <button>Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <table >
+                <tr>
+                    <td><b>Về chúng tôi</b></td>
+                    <td></td>
+                    <td><b>Chính sách</b></td>
+                    <td><b>Liên hệ</b></td>
+                </tr>
+                <tr>
+                    <td>Wiki</td>
+                    <td>Việc làm</td>
+                    <td>Chính sách bảo mật</td>
+                    <td>Hotline: 19001000</td>
+                    
+                </tr>
+                <tr>
+                    <td>Giới thiệu</td>
+                    <td>Góp ý</td>
+                    <td>Quy định sử dụng</td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td>Quên mật khẩu</td>
+                    <td>Đăng ký thành viên</td>
+                    <td>Giải quyết khiếu nại</td>
+                    <td></td>
+                    
+                </tr>
+            </table>
+        </footer>
+        <script src="./js/chitietsp.js"></script>
+    </div>
+</body>
+</html>
