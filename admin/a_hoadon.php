@@ -5,8 +5,8 @@
             <article>
                 <div class="show">
                     <div class="title">
-                        <h2>Quản lý loại</h2>
-                        <a href="">Thêm khách hàng</a>
+                        <h2>Quản lý đơn</h2>
+                        <a href=""></a>
                     </div>
                     <table style="width:100%">
                         <tr>
@@ -29,14 +29,6 @@
                             <td><a href="">Sửa</a></td>
                             <td><a href="">Xóa</a></td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>2222222222222</td>
-                            <td>222222</td>
-                            <td><a href="">Sửa</a></td>
-                            <td><a href="">Xóa</a></td>
-                        </tr>
-                        
                     </table>
                     
                     

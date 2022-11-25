@@ -1,4 +1,8 @@
 
+<?php 
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +10,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        td img{
+            width: 100px;
+        }
+        form{
+            text-align: c
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -17,9 +29,9 @@
                 
             </div>
             <div class="account">
-            
-                <a href="">Hello</a>|
-                <a href="?action=logout">Đăng xuất</a>
+
+                <a href="">Hello </a>|
+                <a href="dangxuat.php">Đăng xuất</a>
             </div>
         </header>
         <main>

@@ -10,7 +10,7 @@
                 <div class="show">
                     <div class="title">
                         <h2>Quản lý SP</h2>
-                        <a href="">Thêm SP</a>
+                        <a href="in_sanpham.php">Thêm SP</a>
                     </div>
                     <table style="width:100%">
                         <tr>
@@ -41,7 +41,7 @@
                                 <td><?php echo $row['ten_sp'] ?></td>
                                 <td><?php echo $row['don_gia'] ?></td>
                                 <td><?php echo $row['giam_gia'] ?></td>
-                                <td><?php echo $row['hinh'] ?></td>
+                                <td><img src="img/<?php echo $row['hinh'] ?>" alt=""></td>
                                 <td><?php echo $row['mo_ta'] ?></td>
                                 <td><?php echo $row['thuong_hieu'] ?></td>
                                 <td><?php echo $row['xuat_xu'] ?></td>
