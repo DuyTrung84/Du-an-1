@@ -1,6 +1,10 @@
-
+<?php
+    require '../golbal.php';
+?>
 <?php 
-    session_start();
+    
+    // session_start();
+    // check_login();
 ?>
 
 <!DOCTYPE html>

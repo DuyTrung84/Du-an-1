@@ -18,6 +18,8 @@
                             <th>Họ tên</th>                        
                             <th>Mật khẩu</th>                        
                             <th>Email</th>                        
+                            <th>Địa chỉ</th>                        
+                            <th>SDT</th>                        
                             <th>AVT</th>                                               
                             <th>Vai trò</th>                                               
                             <th></th>
@@ -37,6 +39,8 @@
                                 <td><?php echo $row['ho_ten'] ?></td>
                                 <td><?php echo $row['mat_khau'] ?></td>
                                 <td><?php echo $row['email'] ?></td>
+                                <td><?php echo $row['dia_chi'] ?></td>
+                                <td><?php echo $row['sdt'] ?></td>
                                 <td><img src="img/<?php echo $row['hinh'] ?>" alt=""></td>
                                 <td><?php echo $row['vai_tro'] ?></td>
                                 <td><a href="ed_khachhang.php?ma_kh=<?php echo$row['ma_kh'] ?>">Sửa</a> </td>

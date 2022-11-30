@@ -1,12 +1,12 @@
 <?php
     require_once 'pdo.php';
-    function kh_insert($ho_ten,$mat_khau,$email,$hinh,$vai_tro){
-        $sql = "INSERT INTO khach_hang(ho_ten,mat_khau,email,hinh,vai_tro) VALUES(?,?,?,?,?)";
-        pdo_execute($sql, $ho_ten,$mat_khau,$email,$hinh,$vai_tro);
+    function kh_insert($ho_ten,$mat_khau,$email,$dia_chi,$sdt,$hinh,$vai_tro){
+        $sql = "INSERT INTO khach_hang(ho_ten,mat_khau,email,dia_chi,sdt,hinh,vai_tro) VALUES(?,?,?,?,?,?,?)";
+        pdo_execute($sql, $ho_ten,$mat_khau,$email,$dia_chi,$sdt,$hinh,$vai_tro);
        }
-       function kh_update($ma_kh,$ho_ten,$mat_khau,$email,$hinh,$vai_tro){
-        $sql = "UPDATE khach_hang SET ho_ten=?,mat_khau=?,email=?,hinh=?,vai_tro=? WHERE ma_kh=?";
-        pdo_execute($sql,$ho_ten,$mat_khau,$email,$hinh,$vai_tro,$ma_kh);
+       function kh_update($ma_kh,$ho_ten,$mat_khau,$email,$dia_chi,$sdt,$hinh,$vai_tro){
+        $sql = "UPDATE khach_hang SET ho_ten=?,mat_khau=?,email=?,dia_chi=?,sdt=?,hinh=?,vai_tro=? WHERE ma_kh=?";
+        pdo_execute($sql,$ho_ten,$mat_khau,$email,$dia_chi,$sdt,$hinh,$vai_tro,$ma_kh);
        }
        function kh_delete($ma_kh){
         $sql = "DELETE FROM khach_hang WHERE ma_kh=?";

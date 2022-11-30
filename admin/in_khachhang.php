@@ -18,6 +18,8 @@
                         <p>Họ tên</p><input type="text" name="ho_ten">
                         <p>Mật khẩu</p><input type="text" name="mat_khau">
                         <p>Email</p><input type="text" name="email">
+                        <p>Địa chỉ</p><input type="text" name="dia_chi">
+                        <p>SDT</p><input type="text" name="sdt">
                         <p>AVT</p><input type="file" name="img">
                         <p>Vai trò</p><input type="text" name="vai_tro">
                         <br><input type="submit" value="Thêm" name="btn_insert" >
@@ -27,6 +29,8 @@
                             $ho_ten=$_POST['ho_ten'];
                             $mat_khau=$_POST['mat_khau'];
                             $email=$_POST['email'];
+                            $dia_chi=$_POST['dia_chi'];
+                            $sdt=$_POST['sdt'];
                             $vai_tro=$_POST['vai_tro'];
 
 
@@ -35,7 +39,7 @@
                             $img_tmp=$_FILES['img']['tmp_name'];
                             
                             move_uploaded_file($img_tmp,'./img/'.$img_name);
-                            kh_insert($ho_ten,$mat_khau,$email,$img_name,$vai_tro);
+                            kh_insert($ho_ten,$mat_khau,$email,$dia_chi,$sdt,$img_name,$vai_tro);
 
                             header('Location: a_khachhang.php');
                         } 
