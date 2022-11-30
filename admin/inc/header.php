@@ -24,7 +24,7 @@
     <div class="container">
         <header>
             <div class="logo">
-            <img src="./img/logo.jpg" alt="" width="90px">
+            <img src="./img/logo.png" alt="" width="90px">
                 <h1>Adminstor</h1>
                 
             </div>

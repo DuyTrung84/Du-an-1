@@ -1,12 +1,12 @@
 <?php
     require_once 'pdo.php';
     function loai_insert($ten_loai,$hinh){
-        $sql = "INSERT INTO loai(ten_loai,hinh) VALUES(?)";
-        pdo_execute($sql, $ten_loai);
+        $sql = "INSERT INTO loai(ten_loai,hinh) VALUES(?,?)";
+        pdo_execute($sql, $ten_loai,$hinh);
        }
-       function loai_update($ma_loai, $ten_loai,$hinh){
-        $sql = "UPDATE loai SET ten_loai=? WHERE ma_loai=?";
-        pdo_execute($sql, $ten_loai, $ma_loai,$hinh);
+       function loai_update( $ma_loai,$ten_loai,$hinh){
+        $sql = "UPDATE loai SET ten_loai=?,hinh=? WHERE ma_loai=?";
+        pdo_execute($sql,$ten_loai,$hinh,$ma_loai);
        }
        function loai_delete($ma_loai){
         $sql = "DELETE FROM loai WHERE ma_loai=?";

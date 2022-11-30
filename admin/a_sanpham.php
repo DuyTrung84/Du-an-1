@@ -21,7 +21,9 @@
                             <th>Ảnh</th>                        
                             <th>Mô tả</th>                                               
                             <th>Thương hiệu</th>                        
-                            <th>Xuất xứ</th>                        
+                            <th>Xuất xứ</th>
+                            <th>Ưu đãi</th>
+                            <th>Thành phần</th>                       
                             <th>Số lượt xem</th>                        
                             <th>Loại</th>                        
                             <th></th>
@@ -43,11 +45,13 @@
                                 <td><?php echo $row['giam_gia'] ?></td>
                                 <td><img src="img/<?php echo $row['hinh'] ?>" alt=""></td>
                                 <td><?php echo $row['mo_ta'] ?></td>
-                                <td><?php echo $row['thuong_hieu'] ?></td>
-                                <td><?php echo $row['xuat_xu'] ?></td>
+                                <td><?php echo $row['ma_th'] ?></td>
+                                <td><?php echo $row['ma_xx'] ?></td>
+                                <td><?php echo $row['ma_uu_dai'] ?></td>
+                                <td><?php echo $row['thanh_phan'] ?></td>
                                 <td><?php echo $row['so_luot_xem'] ?></td>
                                 <td><?php echo $row['ma_loai'] ?></td>
-                                <td><a href="edit_sanpham.php?ma_sp=<?php echo$row['ma_sp'] ?>">Sửa</a> </td>
+                                <td><a href="ed_sanpham.php?ma_sp=<?php echo$row['ma_sp'] ?>">Sửa</a> </td>
                                 <td><?php echo "<td><a href=".$del_link." >Xoá</a></td>" ?></td>
                                 
                             </tr>

@@ -39,7 +39,7 @@
                                 <td><?php echo $row['email'] ?></td>
                                 <td><img src="img/<?php echo $row['hinh'] ?>" alt=""></td>
                                 <td><?php echo $row['vai_tro'] ?></td>
-                                <td><a href="edit_khachhang.php?ma_kh=<?php echo$row['ma_kh'] ?>">Sửa</a> </td>
+                                <td><a href="ed_khachhang.php?ma_kh=<?php echo$row['ma_kh'] ?>">Sửa</a> </td>
                                 <?php echo "<td><a href=".$del_link." >Xoá</a></td>" ?>
                             </tr>
                         <?php            

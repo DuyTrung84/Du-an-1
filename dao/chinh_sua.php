@@ -1,12 +1,12 @@
 <?php
     require_once 'pdo.php';
-    function chinh_sua_insert($logo, $dia_chi, $sdt, $email,$copyright){
-        $sql = "INSERT INTO chinh_sua(logo, dia_chi, sdt, email,copyright) VALUES(?,?,?,?,?)";
-        pdo_execute($sql, $logo, $dia_chi, $sdt, $email,$copyright);
+    function chinh_sua_insert($logo, $dia_chi, $sdt, $email,$copyrigth){
+        $sql = "INSERT INTO chinh_sua(logo, dia_chi, sdt, email,copyrigth) VALUES(?,?,?,?,?)";
+        pdo_execute($sql, $logo, $dia_chi, $sdt, $email,$copyrigth);
        }
-       function chinh_sua_update($logo, $dia_chi, $sdt, $email,$copyright){
-        $sql = "UPDATE chinh_sua SET logo=?,dia_chi=?,sdt=?,email=?,copyright=?, WHERE id=?";
-        pdo_execute($sql, $logo, $dia_chi, $sdt, $email,$copyright);
+       function chinh_sua_update($logo, $dia_chi, $sdt, $email,$copyrigth){
+        $sql = "UPDATE chinh_sua SET logo=?,dia_chi=?,sdt=?,email=?,copyrigth=?, WHERE id=?";
+        pdo_execute($sql, $logo, $dia_chi, $sdt, $email,$copyrigth);
        }
        function chinh_sua_delete($id){
         $sql = "DELETE FROM chinh_sua WHERE id=?";

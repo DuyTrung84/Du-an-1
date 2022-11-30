@@ -39,7 +39,7 @@
                                 <td><?php echo $rows['sdt'] ?></td>
                                 <td><?php echo $rows['email'] ?></td>
                                 <td><?php echo $rows['copyright'] ?></td>
-                                <td><a href="edit_khachhang.php?id=<?php echo$row['id'] ?>">Sửa</a> </td>
+                                <td><a href="ed_chinhsua.php?id=<?php echo$rows['id'] ?>">Sửa</a> </td>
                                 <?php echo "<td><a href=".$del_link." >Xoá</a></td>" ?>
                             </tr>
                         <?php            
